@@ -31,10 +31,11 @@ This project aims to detect signatures on scanned documents using the YOLOv5 obj
 
 ### Usage
 
-1. **Add yolo formatted tobacco dataset to Yolov5 folder**
+1. **Add YOLO formatted tobacco dataset to Yolov5 folder**
+   - I took it from here - https://drive.google.com/drive/folders/1ttDGq_T2dprXJl0Y1lQP1ys64c0_a_hU 
 
-2. **Add YAML in Yolov5 folder**
+3. **Add YAML in Yolov5 folder**
 
-3. **Edit given train.py to add your drive path**
+4. **Edit given train.py to add your drive path**
 
-4. **Run code and make sure to edit paths as per your requirements**
+5. **Run code and make sure to edit paths as per your requirements**
