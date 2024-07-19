@@ -32,26 +32,26 @@ This project aims to detect and verify signatures on scanned documents using the
 
 ### Usage
 
-- #### YOLOv5 - Signature Detection:
+1. #### YOLOv5 - Signature Detection:
 
-1. **Add YOLO formatted tobacco dataset to Yolov5 folder**
-   - I took it from [here](https://drive.google.com/drive/folders/1ttDGq_T2dprXJl0Y1lQP1ys64c0_a_hU) 
+    - **Add YOLO formatted tobacco dataset to Yolov5 folder**
+       - I took it from [here](https://drive.google.com/drive/folders/1ttDGq_T2dprXJl0Y1lQP1ys64c0_a_hU) 
+    
+    - **Add YAML in Yolov5 folder**
+    
+    - **Edit given train.py in lines 499 and 503 to add your drive path**
+    
+    - **Run code and make sure to edit paths as per your requirements**
 
-3. **Add YAML in Yolov5 folder**
 
-4. **Edit given train.py in lines 499 and 503 to add your drive path**
+2. #### VGG16 - Signature Verification:
 
-5. **Run code and make sure to edit paths as per your requirements**
+    - **Add Kaggle Dataset for Signature Verification**
+        - I used [this](https://www.kaggle.com/datasets/robinreni/signature-verification-dataset) dataset
+    
+    - **Train VGG16 Model using provided notebook**
 
-
-- #### VGG16 - Signature Verification:
-
-1. **Add Kaggle Dataset for Signature Verification**
-    - I used [this](https://www.kaggle.com/datasets/robinreni/signature-verification-dataset) dataset
-
-2. **Train VGG16 Model using provided notebook**
-
-- #### Use the test and verify notebooks to execute detection and verification
+3. #### Use the test and verify notebooks to execute detection and verification
 
 ### Results
 
